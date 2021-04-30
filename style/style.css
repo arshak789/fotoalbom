@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#albom{
+	height: 200vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+img{
+	opacity: 0.55;
+	height: 400px;
+	width: 400px;
+	padding: 2px;
+	margin: 5px;
+	cursor: pointer;
+}
+img:hover{
+	opacity: 1;
+
+}
